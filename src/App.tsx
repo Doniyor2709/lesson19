@@ -3,8 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import AdminLayout from "./components/Layout";
 import { AuthContext } from "./context/AuthContext";
-import CategoriesPage from "./pages/CategoriesPage";
-import LoginPage from "./pages/LoginPage";
+
 
 function App() {
   const { isAuthenticated } = useContext(AuthContext);
